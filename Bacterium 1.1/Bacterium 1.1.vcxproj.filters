@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{3eb20af5-4f0f-4c08-ab69-76bf28761b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Btm_DNA">
+      <UniqueIdentifier>{f8d492b1-2add-43da-8687-7890605495d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Btm_DNA\头文件">
+      <UniqueIdentifier>{bf56fc7f-8a80-42e7-8e1b-81fb6ff05721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Btm_DNA\源文件">
+      <UniqueIdentifier>{cc212c38-b24e-4b3a-9b69-c0f448d81761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIButton">
+      <UniqueIdentifier>{20703da2-cd7f-4915-bddc-f90bc4ed0aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIButton\头文件">
+      <UniqueIdentifier>{47beaa40-2e4b-4047-8ba7-761acf102914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIButton\源文件">
+      <UniqueIdentifier>{de4f32f7-50cd-4f0f-8111-43a254cf6267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{f056231e-27ff-4df3-8024-e76bd21e48e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\头文件">
+      <UniqueIdentifier>{a9dc8201-9b2e-4634-8688-603218e85105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\源文件">
+      <UniqueIdentifier>{6704ce24-e8a2-4fb8-a5aa-e42b9dc530bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{75ef952e-1fca-455c-940d-44e3ddf87d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\源文件">
+      <UniqueIdentifier>{30788b67-3e5e-4bb1-be70-af5fea5b009c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\头文件">
+      <UniqueIdentifier>{589839f9-de5c-4062-a30f-3c4c5e4ee8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit">
+      <UniqueIdentifier>{524637fc-736c-4527-b602-f62864e4a768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\源文件">
+      <UniqueIdentifier>{d71a2c0a-f97c-4e38-9047-dcc43ea57464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\头文件">
+      <UniqueIdentifier>{d3a2c214-aca4-4f9e-84fc-9ef38aa1b375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\源文件">
+      <UniqueIdentifier>{156c3194-0a82-4725-b425-72886d87f7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\头文件">
+      <UniqueIdentifier>{a9eb9fa9-6d43-4497-b591-16d143e7ab60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState">
+      <UniqueIdentifier>{6074001b-ffae-474c-9cef-aab4bcca8ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameState\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BtmPiece_Kind.cpp">
+      <Filter>Btm_DNA\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneSegment.cpp">
+      <Filter>Btm_DNA\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeFrame.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIVolumeGUI.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PicButtonGUI.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBacteriaStoreItem.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UICompositeFrameItem.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDNAItem.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UImenuitem.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UISelectSoldierGUI.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UISkillItem.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Antibody.cpp">
+      <Filter>Unit\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Unit\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bacterium.cpp">
+      <Filter>Unit\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BallBacterium.cpp">
+      <Filter>Unit\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StarBacterium.cpp">
+      <Filter>Unit\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesManager.cpp">
+      <Filter>Manager\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterManager.cpp">
+      <Filter>Manager\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Manager\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Manager\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>Manager\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Manager\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bacterium V1.1 Beta.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BacteriaStore.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterMap.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeView.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Film.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGame.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningGame.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSoldierView.cpp">
+      <Filter>GameState\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Manager\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UISelected.cpp">
+      <Filter>GUIButton\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackState.cpp">
+      <Filter>AI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PatrolState.cpp">
+      <Filter>AI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState.cpp">
+      <Filter>AI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RunState.cpp">
+      <Filter>AI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitState.cpp">
+      <Filter>AI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindNewPathState.cpp">
+      <Filter>AI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowState.cpp">
+      <Filter>AI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BtmPiece_Kind.h">
+      <Filter>Btm_DNA\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneSegment.h">
+      <Filter>Btm_DNA\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeFrame.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIVolumeGUI.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PicButtonGUI.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBacteriaStoreItem.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UICompositeFrameItem.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDNAItem.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UImenuitem.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UISelectSoldierGUI.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UISkillItem.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Antibody.h">
+      <Filter>Unit\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Unit\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bacterium.h">
+      <Filter>Unit\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BallBacterium.h">
+      <Filter>Unit\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StarBacterium.h">
+      <Filter>Unit\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Manager\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterManager.h">
+      <Filter>Manager\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Manager\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Manager\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>Manager\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Manager\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>Manager\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BacteriaStore.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterMap.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeView.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Film.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadGame.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGame.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningGame.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSoldierView.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>GameState\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UISelected.h">
+      <Filter>GUIButton\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PatrolState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RunState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindNewPathState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowState.h">
+      <Filter>AI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="save.txt">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

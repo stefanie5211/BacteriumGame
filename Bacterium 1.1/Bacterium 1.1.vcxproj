@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Antibody.cpp" />
+    <ClCompile Include="AttackState.cpp" />
+    <ClCompile Include="BacteriaStore.cpp" />
+    <ClCompile Include="Bacterium V1.1 Beta.cpp" />
+    <ClCompile Include="Bacterium.cpp" />
+    <ClCompile Include="BallBacterium.cpp" />
+    <ClCompile Include="BtmPiece_Kind.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="ChapterManager.cpp" />
+    <ClCompile Include="ChapterMap.cpp" />
+    <ClCompile Include="CompositeFrame.cpp" />
+    <ClCompile Include="CompositeView.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="Film.cpp" />
+    <ClCompile Include="FindNewPathState.cpp" />
+    <ClCompile Include="FollowState.cpp" />
+    <ClCompile Include="GameApplication.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GeneSegment.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="GUIManager.cpp" />
+    <ClCompile Include="LoadGame.cpp" />
+    <ClCompile Include="Main_Menu.cpp" />
+    <ClCompile Include="MiniMap.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MoveState.cpp" />
+    <ClCompile Include="NewGame.cpp" />
+    <ClCompile Include="Option.cpp" />
+    <ClCompile Include="ParticleManager.cpp" />
+    <ClCompile Include="PatrolState.cpp" />
+    <ClCompile Include="PicButtonGUI.cpp" />
+    <ClCompile Include="ResourcesManager.cpp" />
+    <ClCompile Include="RunningGame.cpp" />
+    <ClCompile Include="RunState.cpp" />
+    <ClCompile Include="UISelected.cpp" />
+    <ClCompile Include="SelectSoldierView.cpp" />
+    <ClCompile Include="StarBacterium.cpp" />
+    <ClCompile Include="Start.cpp" />
+    <ClCompile Include="Store.cpp" />
+    <ClCompile Include="UIBacteriaStoreItem.cpp" />
+    <ClCompile Include="UICompositeFrameItem.cpp" />
+    <ClCompile Include="UIDNAItem.cpp" />
+    <ClCompile Include="UImenuitem.cpp" />
+    <ClCompile Include="UISelectSoldierGUI.cpp" />
+    <ClCompile Include="UISkillItem.cpp" />
+    <ClCompile Include="UIVolumeGUI.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="WaitState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antibody.h" />
+    <ClInclude Include="AttackState.h" />
+    <ClInclude Include="BacteriaStore.h" />
+    <ClInclude Include="Bacterium.h" />
+    <ClInclude Include="BallBacterium.h" />
+    <ClInclude Include="BtmPiece_Kind.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ChapterManager.h" />
+    <ClInclude Include="ChapterMap.h" />
+    <ClInclude Include="CompositeFrame.h" />
+    <ClInclude Include="CompositeView.h" />
+    <ClInclude Include="Constant.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="Film.h" />
+    <ClInclude Include="FindNewPathState.h" />
+    <ClInclude Include="FollowState.h" />
+    <ClInclude Include="GameApplication.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GeneSegment.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="GUIManager.h" />
+    <ClInclude Include="LoadGame.h" />
+    <ClInclude Include="Main_Menu.h" />
+    <ClInclude Include="MiniMap.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MoveState.h" />
+    <ClInclude Include="NewGame.h" />
+    <ClInclude Include="Option.h" />
+    <ClInclude Include="ParticleManager.h" />
+    <ClInclude Include="PatrolState.h" />
+    <ClInclude Include="PicButtonGUI.h" />
+    <ClInclude Include="ResourcesManager.h" />
+    <ClInclude Include="RunningGame.h" />
+    <ClInclude Include="RunState.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="UISelected.h" />
+    <ClInclude Include="SelectSoldierView.h" />
+    <ClInclude Include="StarBacterium.h" />
+    <ClInclude Include="Start.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Store.h" />
+    <ClInclude Include="UIBacteriaStoreItem.h" />
+    <ClInclude Include="UICompositeFrameItem.h" />
+    <ClInclude Include="UIDNAItem.h" />
+    <ClInclude Include="UImenuitem.h" />
+    <ClInclude Include="UISelectSoldierGUI.h" />
+    <ClInclude Include="UISkillItem.h" />
+    <ClInclude Include="UIVolumeGUI.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitState.h" />
+    <ClInclude Include="WaitState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="save.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CDE1CE34-DFD5-4B47-96D2-E805D59740C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Bacterium11</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\WorkSpace\Desktop\HGE\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\hge\hge181\include;G:\Documents\Visual Studio 2010\Projects\hge\hge181\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>F:\hge\hge181\lib\vc;G:\Documents\Visual Studio 2010\Projects\hge\hge181\lib\vc;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>hge.lib;hgehelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
